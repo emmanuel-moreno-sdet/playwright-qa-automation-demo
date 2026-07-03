@@ -1,0 +1,12 @@
+{
+  "name": "playwright-qa-automation-demo",
+  "version": "1.0.0",
+  "description": "A Playwright automation framework showcasing UI tests, API tests, and CI integration.",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.0"
+  }
+}
