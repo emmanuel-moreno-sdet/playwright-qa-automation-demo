@@ -1,5 +1,7 @@
 # Playwright QA Automation Demo
 
+![Playwright Tests](https://github.com/emmanuel-moreno-sdet/playwright-qa-automation-demo/actions/workflows/playwright.yml/badge.svg)
+
 A lightweight end-to-end testing framework built with Playwright.  
 This project demonstrates UI testing, API testing, cross-browser execution, and CI integration using GitHub Actions.
 
