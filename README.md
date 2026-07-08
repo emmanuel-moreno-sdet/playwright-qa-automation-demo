@@ -15,23 +15,33 @@ This project demonstrates UI testing, API testing, cross-browser execution, and 
 ## Getting Started
 
 Install dependencies:
-
+```
 npm install
-
+```
 Run tests:
-
+```
 npx playwright test
-
+```
 View HTML report:
-
+```
 npx playwright show-report
-
+```
 ## Project Structure
+```
+playwright-qa-automation-demo/
+├── tests/                     # UI, API, and login test specs
+│   ├── example-ui.spec.ts
+│   ├── example-api.spec.ts
+│   └── login.spec.ts
+├── playwright.config.ts       # Playwright configuration (browsers, reporters, settings)
+├── package.json               # Project dependencies and scripts
+├── package-lock.json          # Locked dependency versions
+├── README.md                  # Project documentation
+└── .github/
+    └── workflows/
+        └── playwright.yml     # GitHub Actions CI pipeline
 
-tests/ # Test files (UI, API, login) 
-playwright.config.ts # Playwright configuration .
-github/workflows # CI pipeline
-
+```
 ## Author
 Emmanuel Moreno  
 Quality Assurance Professional | ISTQB Certified
